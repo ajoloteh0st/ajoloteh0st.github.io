@@ -1,0 +1,63 @@
++<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Generador de Gemas y Brawl Pass para Brawl Stars sim</title>
+    <link rel="stylesheet" href="style.css"> <!-- Vincula un archivo CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Gemas y Brawl Pass para Brawl Stars</h1> <!-- Título principal -->
+        
+        <!-- Opciones de Gemas -->
+        <form id="brawlStarsForm">
+            <div class="section">
+                <h2>Selecciona Gemas</h2> <!-- Título de la sección de gemas -->
+                <div class="options">
+                    <label>
+                        <input type="radio" name="option" value="30" required>
+                        <img src="30 gemas.png" alt="30 gemas">
+                        <span>30 Gemas</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="option" value="80">
+                        <img src="60 gemas.png" alt="80 gemas">
+                        <span>80 Gemas</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="option" value="170">
+                        <img src="170_gemas-removebg-preview.png" alt="170 gemas">
+                        <span>170 Gemas</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Opciones de Brawl Pass -->
+            <div class="section">
+                <h2>Selecciona tu Brawl Pass</h2> <!-- Título de la sección de Brawl Pass -->
+                <div class="options">
+                    <label>
+                        <input type="radio" name="option" value="brawlpass">
+                        <img src="GDRbZIbWIAACUiw.png" alt="Brawl Pass">
+                        <span>Brawl Pass</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="option" value="brawlpassplus">
+                        <img src="GEtoXL8WoAA6hnx.jpg" alt="Brawl Pass Plus">
+                        <span>Brawl Pass Plus</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Campo de ID de Jugador -->
+            <label for="playerId">Ingresa tu ID de Brawl Stars:</label>
+            <input type="text" id="playerId" name="playerId" required placeholder="Tu ID de Brawl Stars">
+
+            <button type="submit">Generar</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script> <!-- Vincula un archivo JavaScript -->
+</body>
+</html>
